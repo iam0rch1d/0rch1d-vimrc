@@ -29,6 +29,9 @@ let g:edge_style='aura'
 let g:lightline={'colorscheme':'edge'}
 colorscheme edge
 
+"let g:lightline={'colorscheme':'darcula'}
+"colorscheme darcula
+
 au BufReadPost *
 \ if line("'\"") > 0 && line("'\"") <= line ("$") |
 \ exe "norm g'\"" |
